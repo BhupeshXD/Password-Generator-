@@ -1,0 +1,113 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .display {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .display-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+  }
+  
+  .length-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  
+  /* Style for checkboxes and labels */
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .strength-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  [data-indicator] {
+    width: 100px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .generateButton {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .generateButton:hover {
+    background-color: #0056b3;
+  }
+  
